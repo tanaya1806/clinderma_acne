@@ -1,0 +1,50 @@
+# Python virtual environments & bytecode
+venv/
+backend/venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node dependencies & build
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test outputs and temporary response dumps
+backend/test_response.json
+backend/patch*.jpg
+backend/test_annotated*.jpg
+*.jpg.tmp
+
+# Large model binaries and datasets (download via download_models.sh)
+preprocessing/Clinderma/DATASET_COMBINED/
+preprocessing/Clinderma/V_3/models/*.onnx
+preprocessing/Clinderma/V_3/models/*.pt
